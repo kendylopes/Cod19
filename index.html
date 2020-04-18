@@ -1,31 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Projeto Gama</title>
-    <link rel="stylesheet" href="/css/style.css">
-    
 </head>
 <body>
-    <Header>
-        <h1>Coronavírus</h1>
-    </Header>
-    <nav>
-        <ul>
-            <li><a href="#home"> Home </a></li>
-            <li><a href="#sobre"> Sobre </a></li>
-            <li><a href="#contato"> Contato </a></li>
-        </ul>
-    </nav>
-    <aside>
-        <h3>Sobre</h3>
-    </aside>
-    <aside>
-        <h3>Contato</h3>
-    </aside>
+    <header>
+        <nav>
+            <h1><b>Covid-</b><i>19</i></h1>
+            <ul>
+                <li><a href="projeto.html" class="active"> Home </a></li>
+                <li><a href="#sobre"> Sobre </a></li>
+                <li><a href="#contato"> Contato </a></li>
+                <li><a href="#saiba"> Saiba Mais </a></li>
+            </ul>
+        </nav> 
+        <div class="icon">
+            <ul>
+                <li><a href="https://www.instagram.com/kendylopes/" target="_blank"><img src="/img/insta.svg"></a></li>
+                <li><a href="https://www.linkedin.com/in/kennedylopes" target="_blank"><img src="/img/linke.svg"></a></li>
+                <li><a href="https://github.com/kendylopes" target="_blank"><img src="/img/git.svg"></a></li>
+                <li><a href="https://www.facebook.com/kennedylopes.silv" target="_blank"><img src="/img/face.svg"></a></li>
+            </ul>  
+        </div>   
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="conteudo">
+                <h2 class="h2titulo">INFORMATIVO COVID-19</h2>
+                <h3 class="h3subtitulo"> Topicos sobre o Coronavírus</h3>
+                <div class="cards-noticia">
+                    <div class="card-foto">
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid" target="_blank"><img src="/img/cod1.jpg" alt=""></a>
+                        <h4>O que é COVID-19</h4>
+                        <p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros respiratórios graves. De acordo com a Organização Mundial de Saúde (OMS), a maioria dos pacientes com COVID-19 (cerca de 80%) podem ser assintomáticos e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e desses casos aproximadamente 5% podem necessitar de suporte para o tratamento de insuficiência respiratória (suporte ventilatório).</p>
+                    </div>
+                    <div class="card-foto">
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid" target="_blank"><img src="/img/cod2.jpg" alt=""></a>
+                        <h4>O que é o coronavírus?</h4>
+                        <p>Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus foi descoberto em 31/12/19 após casos registrados na China. Provoca a doença chamada de coronavírus (COVID-19).</p>
+                        <p>Os primeiros coronavírus humanos foram isolados pela primeira vez em 1937. No entanto, foi em 1965 que o vírus foi descrito como coronavírus, em decorrência do perfil na microscopia, parecendo uma coroa.</p>
+                        <p>A maioria das pessoas se infecta com os coronavírus comuns ao longo da vida, sendo as crianças pequenas mais propensas a se infectarem com o tipo mais comum do vírus. Os coronavírus mais comuns que infectam humanos são o alpha coronavírus 229E e NL63 e beta coronavírus OC43, HKU1.</p>
+                    </div>
+                    <div class="card-foto">
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#sintomas" target="_blank"><img src="/img/cod3.jpg" alt=""></a>
+                        <h4>Quais são os sintomas</h4>
+                        <p>Os sintomas da COVID-19 podem variar de um simples resfriado até uma pneumonia severa. Sendo os sintomas mais comuns:</p>
+                        <ul>
+                            <li>Tosse</li>
+                            <li>Febre</li>
+                            <li>Coriza</li>
+                            <li>Dor de garganta</li>
+                            <li>Dificuldade para respirar</li>
+                        </ul>
+                    </div>
+                    <div class="card-foto">
+                        <a href="https://coronavirus.saude.gov.br/sobre-a-doenca#transmissao" target="_blank"><img src="/img/cod4.jpg" alt=""></a>
+                        <h4>Como é transmitido</h4>
+                        <p>A transmissão acontece de uma pessoa doente para outra ou por contato próximo por meio de:</p>
+                        <ul>
+                            <li>Toque do aperto de mão;</li>
+                            <li>Gotículas de saliva;</li>
+                            <li>Espirro/Tosse;</li>
+                            <li>Catarro;</li>
+                            <li>Objetos ou superfícies contaminadas, como celulares, mesas, maçanetas etc...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <div class="conteudo-sobre">
+                <h2 class="h2titulo">SOBRE</h2>
+                <h3 class="h3subtitulo"> Desenvolvedor Kennedy Lopes da Silva</h3>
+                <center>
+                    <img src="/img/ken.jpg" alt="">
+                </center>
+                <p class="psobre">Olá, meu nome é Kennedy Lopes da Silva, sou um eterno estudante de tecnologia, gosto de programar, de resolver problemas e criar coisas também, estou em constante aprendizado onde o céu é o limite. </p>
+                <p class="psobre">Está é minha primeira pagina web, não sou muito bom em desing, espero que apreciem meu trabalho. </p>
+                
+                <a href="#home" class="boton">Voltar ao Topo</a>
+            </div>
+        </section>
+        <section id="saiba" class="sobre">
+            <div class="conteudo-sobre">
+                <h2 class="h2titulo">SAIBA MAIS</h2>
+                <h3 class="h3subtitulo">Fonte de Pesquisa e Desenvolvimento</h3>
+                <p class="psobre">Veja os sites usados como fontes de informação e desenvolvimento para elaboração desta lading page</p>
+                <ul>
+                    <li>https://respostas.guj.com.br/</li>
+                    <li>https://www.w3schools.com/</li>
+                    <li>https://uigradients.com/#DeepSpace</li>
+                    <li>https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid</li>
+                    <li>https://www.youtube.com/</li>
+                </ul>
+                <a href="#home" class="boton">Voltar ao Topo</a>
+            </div>    
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2020 - Kennedy Lopes da Silva</p>
+        <div class="rodape">
+            <h2 class="titulo-footer">CONTATO</h2>
+            <h3 class="subtitulo-footer">Entre em contato comigo :</h3>
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nome">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" placeholder="Escreva sua mensagem aqui..." rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+
+        </div>
+        <div class="footer-fim">
+            &copy 2020 - Kennedy Lopes da Silva - Gama Academy
+        </div>
     </footer>
 </body>
 </html>
